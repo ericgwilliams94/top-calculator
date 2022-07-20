@@ -20,6 +20,10 @@ h1 {
     margin-bottom: 25px;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* CONTAINER STYLING */
 .container {
     align-items: center;
