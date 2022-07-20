@@ -24,6 +24,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    opacity: 0.90;
+}
+
 /* CONTAINER STYLING */
 .container {
     align-items: center;
