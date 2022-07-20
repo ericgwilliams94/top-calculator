@@ -1,18 +1,58 @@
+/* ROOT */
 :root {
     --black: #000000;
     --white: #FFFFFF;
-    --gray: #9FA2A6;
+    --gray: #E9EBEE;
     --green: #5D9C3E;
     --red: #9C3E48;
-    --blue: #91B8E6;
+    --blue: #064A8A;
 }
 
+/* GENERAL STYLING */
 * {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
 }
-
+/* tag styling */
 h1 {
     font-size: 75px;
+    margin-bottom: 25px;
+}
+
+/* CONTAINER STYLING */
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+}
+/* CALCULATOR STYLING */
+.calculator {
+    background-color: var(--blue);
+    border: 2px solid var(--black);
+    border-radius: 10px;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    width: 400px;
+}
+
+.screen {
+    background-color: var(--gray);
+    border: 2px solid var(--black);
+    border-radius: 10px;
+    height: 100px;
+    margin: 10px 0;
+    width: 90%;
+}
+
+
+
+/* FOOTER STYLING */
+.footer {
+    bottom: 0;
+    margin-bottom: 10px;
+    position: absolute;
 }
