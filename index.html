@@ -1,67 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- title -->
-        <title>Calculator by Eric Williams</title>
-        <!-- meta tags-->
-        <meta charset="UTF-8">
-        <meta charset="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!-- links -->
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" type="image/x-icon" href="calculator.ico">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/e6905eceea.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div class="container">
-            <h1>Calculator</h1>
-            <div class="calculator">
-                <!-- screen to display-->
-                <div class="screen" id="screen"></div>
-                <div class="buttons">
-                    <!-- top row buttons (clear, delete, modulus, division)-->
-                    <button class="btn clear" id="clearBtn">C</button>
-                    <button class="btn delete" id="deleteBtn">DEL</button>
-                    <button class="btn percent" id="percentBtn">%</button>
-                    <button class="btn operator" id="divisionBtn">/</button>
-                    <!-- second row buttons (7, 8, 9, addition)-->
-                    <button class="btn num" id="sevenBtn">7</button>
-                    <button class="btn num" id="eightBtn">8</button>
-                    <button class="btn num" id="nineBtn">9</button>
-                    <button class="btn operator" id="additionBtn">+</button>
-                     <!-- third row buttons (4, 5, 6, subtraction)-->
-                     <button class="btn num" id="fourBtn">4</button>
-                     <button class="btn num" id="fiveBtn">5</button>
-                     <button class="btn num" id="sixBtn">6</button>
-                     <button class="btn operator" id="subtractionBtn">-</button>
-                      <!-- fourth row buttons (1, 2, 3, multiplication)-->
-                      <button class="btn num" id="oneBtn">1</button>
-                      <button class="btn num" id="twoBtn">2</button>
-                      <button class="btn num" id="threeBtn">3</button>
-                      <button class="btn operator" id="multiplicationBtn">x</button>
-                       <!-- final row buttons (negate, 0, ., equals)-->
-                       <button class="btn operator" id="negateBtn">+/-</button>
-                       <button class="btn num" id="zeroBtn">0</button>
-                       <button class="btn num" id="threeBtn">.</button>
-                       <button class="btn operator" id="multiplicationBtn">=</button>
-                </div>
-                
-
-            </div>
-
-            <div class="footer">
-                <footer>
-                    &copy; Eric Williams
-                    <script>
-                        document.write(new Date().getFullYear())
-                    </script>
-                     <a href="https://github.com/ericgwilliams94/top-calculator" target="_blank"><i class="fab fa-github"></i></a>
-                </footer>
-            </div>
+  <head>
+    <!-- title -->
+    <title>Calculator by Eric Williams</title>
+    <!-- meta tags-->
+    <meta charset="UTF-8" />
+    <meta charset="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- links -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="calculator.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e6905eceea.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculator</h1>
+      <div class="calculator">
+        <!-- screen to display-->
+        <div class="screen" id="screen"></div>
+        <div class="buttons">
+          <!-- top row buttons (clear, delete, modulus, division)-->
+          <button class="btn clear" id="clearBtn">C</button>
+          <button class="btn delete" id="deleteBtn">DEL</button>
+          <button class="btn operator" id="percentBtn">%</button>
+          <button class="btn operator" id="divisionBtn">/</button>
+          <!-- second row buttons (7, 8, 9, addition)-->
+          <button class="btn num" id="sevenBtn">7</button>
+          <button class="btn num" id="eightBtn">8</button>
+          <button class="btn num" id="nineBtn">9</button>
+          <button class="btn operator" id="additionBtn">+</button>
+          <!-- third row buttons (4, 5, 6, subtraction)-->
+          <button class="btn num" id="fourBtn">4</button>
+          <button class="btn num" id="fiveBtn">5</button>
+          <button class="btn num" id="sixBtn">6</button>
+          <button class="btn operator" id="subtractionBtn">-</button>
+          <!-- fourth row buttons (1, 2, 3, multiplication)-->
+          <button class="btn num" id="oneBtn">1</button>
+          <button class="btn num" id="twoBtn">2</button>
+          <button class="btn num" id="threeBtn">3</button>
+          <button class="btn operator" id="multiplicationBtn">x</button>
+          <!-- final row buttons (negate, 0, ., equals)-->
+          <button class="btn operator" id="negateBtn">+/-</button>
+          <button class="btn num" id="zeroBtn">0</button>
+          <button class="btn num" id="decimalBtn">.</button>
+          <button class="btn" id="equalsBtn">=</button>
         </div>
-        <script src="script.js"></script>
-    </body>
+      </div>
+
+      <div class="footer">
+        <footer>
+          &copy; Eric Williams
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          <a
+            href="https://github.com/ericgwilliams94/top-calculator"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </footer>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
