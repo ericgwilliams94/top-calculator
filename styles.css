@@ -16,8 +16,8 @@
 }
 /* tag styling */
 h1 {
-    font-size: 75px;
-    margin-bottom: 25px;
+    font-size: 60px;
+    margin: 25px 0;
 }
 
 button {
@@ -55,6 +55,7 @@ button#deleteBtn:hover {
     align-items: center;
     display: flex;
     flex-direction: column;
+    height: 90vh;
     justify-content: center;
     padding: 0 100px;
 }
@@ -70,26 +71,38 @@ button#deleteBtn:hover {
     justify-content: center;
     width: 400px;
 }
-
+/* screens styling */
 .screen {
     background-color: var(--gray);
     border: 2px solid var(--black);
     border-radius: 10px;
     height: 100px;
     margin: 10px 0;
+    text-align: right;
     width: 90%;
 }
 
-/* #clearBtn {
-    background-color: var(--red);
-    border: 2px solid var(--black);
-    border-radius: 10px;
-    color: var(--white);
-    height: 60px;
-    padding: 25px;
-    width: 100px;
-} */
+.prevScreen {
+    min-height: 32px;
+    font-size: 20px;
+}
 
+.currScreen {
+    min-height: 64px;
+    font-size: 40px;
+}
+
+/* buttons styling */
+.buttons {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+    font-size: 16px;
+    padding: 20px;
+}
 
 
 /* FOOTER STYLING */
