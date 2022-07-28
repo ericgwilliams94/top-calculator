@@ -15,10 +15,6 @@
     padding: 0;
 }
 /* tag styling */
-h1 {
-    font-size: 60px;
-    margin: 25px 0;
-}
 
 button {
     border: 2px solid var(--black);
@@ -76,8 +72,8 @@ button#deleteBtn:hover {
     background-color: var(--gray);
     border: 2px solid var(--black);
     border-radius: 10px;
-    height: 100px;
-    margin: 10px 0;
+    height: 175px;
+    margin: 10px 0 20px 0;
     text-align: right;
     width: 90%;
 }
@@ -96,8 +92,9 @@ button#deleteBtn:hover {
 .buttons {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(4, 1fr);
-}
+    grid-template-columns: repeat(4, 1fr);}
+    /* margin-bottom: 50px;
+} */
 
 .btn {
     font-size: 16px;
@@ -110,4 +107,8 @@ button#deleteBtn:hover {
     bottom: 0;
     margin-bottom: 10px;
     position: absolute;
+}
+
+.fa-github {
+    color: var(--blue);
 }

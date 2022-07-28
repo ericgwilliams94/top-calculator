@@ -37,3 +37,7 @@ function divide(a, b) {
 function modulus(a , b) {
     return a % b;
 }
+
+function negate(a, b) {
+    return 0;
+}
