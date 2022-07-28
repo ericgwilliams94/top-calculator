@@ -1,9 +1,20 @@
+// variables
+let first = '';
+let second = '';
+let currOperation = null;
+let toResetScreen = false;
+
 // document variables
-const screen = document.getElementById("screen");
-const deleteBtn = document.getElementById("deleteBtn");
+const prevScreen = document.getElementById("prevScreen");
+const currScreen = document.getElementById("currScreen");
+const numBtn = document.querySelectorAll("[number]");
+const operatorBtn = document.querySelector("[operator]");
 const clearBtn = document.getElementById("clearBtn");
+const deleteBtn = document.getElementById("deleteBtn");
+const decimalBtn = document.getElementById("decimalBtn");
+const equalsBtn = document.getElementById("equalsBtn");
 
-
+// event listeners
 
 
 
